@@ -1,6 +1,8 @@
 Plasma Effect Thinger
 =====================
 
+![Plasmized cat](FRACT04.png "Plasmised Cat")
+
 The result of an off-hand comment in the CE dev Discord server.
 
 This is not really a plasma effect. All this does is rotate the palette around
