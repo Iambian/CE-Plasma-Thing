@@ -7,6 +7,8 @@
  *--------------------------------------
 */
 
+#define NUMBER_OF_COLORS 255
+
 /* Keep these headers */
 #include <stdbool.h>
 #include <stddef.h>
@@ -40,7 +42,7 @@ void main(void) {
 	zx7_Decompress((void*)0x0D40000,Plasmafractal_compressed);
 	while (!kb_AnyKey()) {
 		i = (i+1)&255;
-		for (j=0;j<129;++j) {
+		for (j=0;j<NUMBER_OF_COLORS;++j) {
 			gfx_palette[j] = pj_HueTo1555(((i+j))&255);
 		}
 		//for (k=0;k<10000;++k);

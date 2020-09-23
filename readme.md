@@ -32,9 +32,12 @@ Usage
 4.	With the final `convpng` run, ensure that the converted size (the one shown
 	on the right) is less than 65000. If it is larger, you should pick a 
 	different image or modify it to use fewer colors, then to gack to step 2.
-5.	Navigate to project root folder, then run in command-line:
+5.	Modify the `NUMBER_OF_COLORS` constant near the top of `src/main.c` to
+	contain the number of colors of the input image to help optimize speed.
+	(You can ignore this step if you want)
+6.	Navigate to project root folder, then run in command-line:
 	*	`make`
-6.	You're done. Send `bin/DEMO.8xp` to your 84+CE.
+7.	You're done. Send `bin/DEMO.8xp` to your 84+CE.
 
 License
 -------
