@@ -1,0 +1,41 @@
+Segment  Base   Top    High   Length
+-------- ------ ------ ------ -------
+icon     D1A882 D1A994           112h
+launcher D1A994 D1A9EC            58h
+libs     D1A9EC D1AA1D            31h
+startup  D1AA1D D1AA5C            3Fh
+cleanup  D1AA5C D1AA70            14h
+exit     D1AA70 D1AA76             6h
+code     D1AA76 D1ABFF           189h
+data     D1ABFF D24142          9543h
+strsect  D24142 D24142             0h
+text     D24142 D24142             0h
+bss      D031F6 D031F6 D13FD6      0h
+header   D1A87F D1A882             3h
+
+Label                       Value
+-------------------------   ------
+_os_DisableHomeTextBuffer = D1AA76
+_os_EnableHomeTextBuffer  = D1AA88
+_zx7_Decompress           = D1AA9A
+__frameset                = D1AB06
+__setflag                 = 000218
+__findlibload             = D1A994
+__program_icon            = D1A887
+__program_description     = D1A989
+__ccleanup                = D1AA5C
+_errno                    = D008DC
+_init                     = D1A882
+_exit                     = D1AA72
+__exit                    = D1AA4B
+__exitsp                  = D1AA4B
+__errsp                   = D1AA4B
+_Plasmafractal_compressed = D1AC21
+__gfx_img_pal             = D24042
+_main                     = D1AB14
+_pj_HueTo1555             = D1ABAF
+_gfx_Begin                = D1A9FF
+_gfx_End                  = D1AA03
+_gfx_SetPalette           = D1AA07
+_gfx_Wait                 = D1AA0B
+_kb_AnyKey                = D1AA19
